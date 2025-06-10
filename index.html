@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rueda de Palabras - Español</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎡 Rueda de Palabras</h1>
+
+    <label for="categoria">Selecciona una categoría:</label>
+    <select id="categoria"></select>
+
+    <div id="juego" style="display:none;">
+      <p><strong>Letra actual:</strong> <span id="letra"></span></p>
+      <p><strong>Pregunta:</strong> <span id="pregunta"></span></p>
+      <input type="text" id="respuesta" placeholder="Tu respuesta..." />
+      <button onclick="verificarRespuesta()">Verificar</button>
+      <p><strong>Puntos:</strong> <span id="puntos">0</span></p>
+      <button onclick="girarRueda()">Girar Rueda</button>
+      <p>Rueda: <span id="resultadoRueda"></span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
