@@ -1,0 +1,19 @@
+{
+  "categorias": {
+    "Países": [
+      { "letra": "A", "pregunta": "País sudamericano cuya capital es Buenos Aires", "respuesta": "argentina" },
+      { "letra": "B", "pregunta": "Capital de Bélgica", "respuesta": "bruselas" },
+      { "letra": "C", "pregunta": "País famoso por la Torre Eiffel", "respuesta": "francia" }
+    ],
+    "Animales": [
+      { "letra": "C", "pregunta": "Animal mamífero que ladra", "respuesta": "perro" },
+      { "letra": "G", "pregunta": "Animal grande con cuello largo", "respuesta": "jirafa" },
+      { "letra": "S", "pregunta": "Reptil que se arrastra", "respuesta": "serpiente" }
+    ],
+    "Verbos": [
+      { "letra": "A", "pregunta": "Acción de moverse hacia adelante", "respuesta": "andar" },
+      { "letra": "C", "pregunta": "Acción de cortar algo con un cuchillo", "respuesta": "cortar" },
+      { "letra": "E", "pregunta": "Decir lo que piensas", "respuesta": "explicar" }
+    ]
+  }
+}
